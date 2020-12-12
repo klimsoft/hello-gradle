@@ -1,0 +1,19 @@
+plugins {
+	id 'java'
+}
+
+group = 'pl.klimsoft'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+}
+
+test {
+	useJUnitPlatform()
+}
