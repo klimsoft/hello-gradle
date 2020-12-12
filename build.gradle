@@ -1,5 +1,6 @@
 plugins {
 	id 'java'
+	id 'application'
 }
 
 group = 'pl.klimsoft'
@@ -8,6 +9,10 @@ sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
+}
+
+application {
+	mainClass = 'pl.klimsoft.hellogradle.HelloGradleApplication'
 }
 
 dependencies {
